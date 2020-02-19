@@ -23,15 +23,15 @@ with open('Some.csv', 'r') as csv_file:
     next(csv_reader)
     emails = []
     Names = []
-    School_names = []
-    Mode_of_transport = []
+    Firm_name = []
+    Coffee_or_call = []
 
     for line in csv_reader:
         emails.append(str(line[0]))
         first_name = line[1].split(" ", 1)[0]
         Names.append(first_name)
-        School_names.append(line[2])
-        Mode_of_transport.append(line[3])
+        Firm_name.append(line[2])
+        Coffee_or_call.append(line[3])
 
 i = 0
 message_template = read_template('message.txt')
@@ -41,6 +41,5 @@ subject = []
 msg = []
 
 while i < size:
-    subject.append(subject_template.substitute(SCHOOL=School_names[i], BIKES=Mode_of_transport[i]))
-    msg.append(message_template.substitute(PERSON_NAME=Names[i], BIKES=Mode_of_transport[i]))
+    msg.append(message_template.substitute(PERSON_NAME=Names[i], FIRM_NAME=Firm_name[i], COFFEE_OR_CALL = Coffee_or_call[i] ))
     i += 1
