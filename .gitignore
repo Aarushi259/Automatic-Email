@@ -1,5 +1,5 @@
 /Conf.py
 /Some.csv
-/venv
+.venv/
 .idea/email.iml
 .idea/misc.xml
