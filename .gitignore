@@ -3,3 +3,4 @@
 .idea/email.iml
 .idea/misc.xml
 /venv/
+.DS_Store

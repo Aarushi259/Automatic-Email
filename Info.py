@@ -2,6 +2,10 @@ import csv
 from string import Template
 import Conf
 
+Email = Conf.Email
+Passowrd = Conf.Passowrd
+
+
 def read_template(filename):
     with open(filename, 'r', encoding='utf-8') as template_file:
         template_file_content = template_file.read()
