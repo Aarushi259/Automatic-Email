@@ -1,0 +1,7 @@
+Hi ${PERSON_NAME},
+
+My name is Utkarsh Mishra. I'm a rising sophomore at Northwestern. I help to run our bikeshare program here and I was hoping to get a testimonial for bringing ${BIKES} to our campus and to learn how your school has been able to mitigate liability and safety concerns. Looking forward to hearing from you and thank you in advance.
+
+Thanks,
+Utkarsh Mishra
+Northwestern '22
