@@ -1,7 +1,19 @@
 Hi ${PERSON_NAME},
 
-My name is Utkarsh Mishra. I'm a rising sophomore at Northwestern. I help to run our bikeshare program here and I was hoping to get a testimonial for bringing ${BIKES} to our campus and to learn how your school has been able to mitigate liability and safety concerns. Looking forward to hearing from you and thank you in advance.
+I hope all is well.
 
-Thanks,
-Utkarsh Mishra
-Northwestern '22
+My name is Aarushi Seth, and I am a Sophomore studying Economics at Northwestern. I wish to pursue a career in investment banking and was hoping you might be interested in discussing your experiences at ${FIRM_NAME}.
+
+If you have any time to ${COFFEE_OR_CALL} in the next several days, I would be more than happy to work around your schedule, as I am sure you are very busy.
+
+I am attaching my resume below for your reference. Thanks in advance for your time!
+
+Best,
+Aarushi
+
+--
+Aarushi Seth
+Northwestern University '22
+Economics Major | Business Institutions Minor
+224-714-8600
+
